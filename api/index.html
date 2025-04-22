@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="javascript1.js"></script>
+  </head>
+  <body>
+    <input type="text" placeholder="Enter user-name" id="txt" />
+    <input type="button" value="submit" onclick="getdata()" />
+    <table class="table" id="table" border="2" style="visibility: hidden">
+      <thead>
+        <th>Username</th>
+        <th>No.of Repos</th>
+        <th>Created Date</th>
+        <th>Updated Date</th>
+        <th>Difference Days</th>
+      </thead>
+      <tr>
+        <td><p id="1"></p></td>
+        <td><p id="2"></p></td>
+        <td>
+          <span id="3"></span>/<span id="33"></span>/<span id="333"></span>
+        </td>
+        <td>
+          <span id="4"></span>/<span id="44"></span>/<span id="444"></span>
+        </td>
+        <td><p id="5"></p></td>
+      </tr>
+    </table>
+    <div id="udata">
+      <table class="table" id="tdata" border="2" style="visibility: hidden">
+        <thead>
+          <th>Repositary name</th>
+          <th>No.of files</th>
+          <th>created</th>
+          <th>updated</th>
+          <th>Last updated date</th>
+        </thead>
+      </table>
+    
+   
+  </body>
+</html>
